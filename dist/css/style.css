@@ -325,6 +325,41 @@ a:hover img {
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  /* .horizontal-scroll-wrapper {
+    transform: none;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    scroll-snap-type: x mandatory;
+    padding: 1rem;
+  }
+
+  .img-wrapper {
+    transform: none !important;
+    min-width: 80vw;
+    height: auto;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .galeri img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  } */
+  .external {
+  overflow: visible; /* atau hapus aja di mobile */
+}
+}
+
 /* Galeri */
 
 /* PPDB */
