@@ -389,11 +389,6 @@ a:hover img {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
-  .galeri h1 {
-    font-size: 28px;
-    margin-bottom: 1rem;
-    padding: 0 1rem;
-  }
 
   .external {
     overflow: visible;
@@ -485,9 +480,6 @@ a:hover img {
 
 /* Tablet responsive */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .galeri h1 {
-    font-size: 36px;
-  }
 
   .external {
     height: 65vh; /* Lebih kecil untuk tablet */
@@ -514,9 +506,6 @@ a:hover img {
 
 /* Extra small mobile */
 @media (max-width: 480px) {
-  .galeri h1 {
-    font-size: 24px;
-  }
 
   .img-wrapper {
     min-width: 250px;
